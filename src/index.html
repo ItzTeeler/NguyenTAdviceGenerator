@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./output.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Frontend Mentor | Advice generator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="">
+  <div class="bg-[#1f2632] grid h-screen place-items-center">
+    <div class="bg-[#323a49] mx-auto grid place-items-center gap-4 px-6 pt-10 pb-20 rounded-xl relative shadow-md shadow-transparent max-w-[32rem] max-sm:mx-4">
+
+      <h3 class="text-[#52ffa8] text-xs font-semibold tracking-[0.3rem]">ADVICE #<span id="advice-id">117</span></h3>
+  
+      <p class="text-[#cee3e9] text-[28px] text-center font-semibold">"<span id="advice">It is easy to sit up and take notice,what's difficult is getting up and taking action.</span>"</p>
+  
+      <div class="mt-4">
+        <img src="./images/pattern-divider-desktop.svg" alt="">
+      </div>
+
+      <div id="btn" class="bg-[#52ffa8] h-16 w-16 grid place-items-center rounded-full absolute -bottom-8 hover:shadow-xl hover:shadow-[#52ffa8] cursor-pointer " id="dice-btn">
+        <img src="./images/icon-dice.svg" class="" alt="">
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Tyler Nguyen</a>.
+    </div>
+  </div>
+
+  <script src="./scripts/app.js"></script>
+</body>
+</html>
